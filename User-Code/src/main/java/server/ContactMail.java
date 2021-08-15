@@ -12,7 +12,7 @@ import javax.mail.internet.MimeMessage;
 public class ContactMail {
 	
     final String username = "contactless21@gmail.com";
-    final String password = "Project@2021";
+    final String password = "Password";
 	
 	public ContactMail(String sub , String text) 
 	{
