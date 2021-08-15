@@ -5,8 +5,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 Sender_Email = "contactless21@gmail.com"
-Reciever_Email = "chudasamarutu98@gmail.com"
-Password = "Project@2021"
+Reciever_Email = "reciever's mail id"
+Password = Passowrd
 
 def sendMail():
     newMessage = EmailMessage()                         
