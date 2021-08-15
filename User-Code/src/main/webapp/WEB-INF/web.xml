@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddUser</servlet-name>
+  	<display-name>AddUser</display-name>
+  	<description></description>
+  	<servlet-class>com.Admin.AddUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>server.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>changeImage</servlet-name>
+  	<display-name>changeImage</display-name>
+  	<description></description>
+  	<servlet-class>server.changeImage</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ContactMail</servlet-name>
+  	<display-name>ContactMail</display-name>
+  	<description></description>
+  	<servlet-class>server.ContactMail</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddUser</servlet-name>
+  	<url-pattern>/AddUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>changeImage</servlet-name>
+  	<url-pattern>/changeImage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ContactMail</servlet-name>
+  	<url-pattern>/ContactMail</url-pattern>
+  </servlet-mapping>
+</web-app>
